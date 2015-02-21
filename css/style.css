@@ -344,7 +344,7 @@ body {
 }
 
 #logo {
-    margin-top: 8rem;
+    margin-top: 5rem;/*8rem;*/
     margin-bottom: 0.4rem;
     opacity:1;
 }
@@ -397,8 +397,10 @@ body {
 .services_icon {
     width:4rem;
     height:4rem;
+/*  custom comment
     margin-top:6.5rem;
     margin-bottom:1.625rem;
+    */
 }
 
 
@@ -1080,4 +1082,46 @@ iframe {
 
 .comment-submit:hover {
     opacity:0.8
+}
+
+/* CUSTOM CSS */
+.row div h3 {
+    color:white;
+}
+.row div ul {
+     font-size: 1rem;
+     line-height: 1.625em;
+     font-family: 'Source Sans Pro', sans-serif;
+     font-weight: 300;
+}
+
+#home {
+    background-color: #191C38 !important;
+    color: white;
+}
+#about {
+    background-color: #191C38 !important;
+    color: white;
+}
+#features_1 {
+    background-color: #191C38 !important;
+    color: white;
+}
+#features_2 {
+    background-color: #191C38 !important;
+    color: white;
+}
+#gallery {
+    background-color: #191C38 !important;
+    color: white;
+}
+#footer {
+    background-color: #191C38 !important;
+    color: white;
+}
+.arrows_box_bg, .arrows_box {
+    background-color: #191C38!important;
+    border-bottom-color: white;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
 }
