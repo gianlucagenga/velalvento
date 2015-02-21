@@ -1115,6 +1115,39 @@ iframe {
     background-color: #191C38 !important;
     color: white;
 }
+#price {
+    margin:0px;
+    padding-top:6.5rem;
+    padding-bottom:6.5rem;
+    background:white;
+    position:relative;
+    display:block;
+    z-index:100;
+    text-align:center;
+    background-color: #191C38 !important;
+    color: white;
+}
+.panel-collapse {
+    text-align: justify;
+}
+
+#price table thead tr th {
+    text-align:center
+}
+
+.panel-collapse > div {
+    color:#191C38;
+}
+
+.panel-collapse > div > ul {
+    margin-left: 20px;
+}
+
+.panel-collapse > div > ul > li {
+    margin-top:0;
+    list-style-type: circle;
+}
+
 #footer {
     background-color: #191C38 !important;
     color: white;

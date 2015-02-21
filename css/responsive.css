@@ -38,7 +38,7 @@
 
     
     #about {
-    margin-bottom:4.568em;
+    /*margin-bottom:4.568em; */
     }
     
     p {
@@ -88,6 +88,9 @@
     
     #button_back {float:none;}
 
+    #price table tbody tr td:nth-child(1) {
+        text-align:center
+    }
 }
 
 @media (max-width: 480px) {
