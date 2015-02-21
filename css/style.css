@@ -1134,6 +1134,9 @@ iframe {
 #price table thead tr th {
     text-align:center
 }
+#price > div > p {
+    text-align: left;
+}
 
 .panel-collapse > div {
     color:#191C38;
