@@ -360,7 +360,7 @@ body {
     opacity:0;
     position:relative;
     z-index:1;
-    width:50%;
+    /*width:50%;*/
 }
 
 .cta1, .cta2 {
@@ -1099,6 +1099,10 @@ iframe {
     background-color: #191C38 !important;
     color: white;
 }
+
+#slogan h4 {
+    color:white;
+}
 #about {
     background-color: #191C38 !important;
     color: white;
@@ -1161,3 +1165,51 @@ iframe {
     border-bottom-width: 1px;
     border-bottom-style: solid;
 }
+
+/*######################################*/
+/* ROTTE CLASSICHE ###########################*/
+/*######################################*/
+
+#rotte_classiche {
+    margin:0px;
+    padding-top:3.25rem;
+    padding-bottom:3.25rem;
+    background-color: #191C38 !important;
+    color: white;
+    position:relative;
+    display:block;
+    z-index:20;
+    text-align:left;
+}
+
+#rotte_classiche_content {
+    padding-top:3rem;
+}
+
+
+#rotte_classiche_content, #rotte_classiche_image {opacity:0;}
+
+
+/*######################################*/
+/* I NOSTRI WEEKEND ####################*/
+/*######################################*/
+
+#nostri_weekend {
+    margin:0px;
+    padding-top:3.25rem;
+    padding-bottom:3.25rem;
+    background-color: #191C38 !important;
+    color: white;
+    position:relative;
+    display:block;
+    z-index:20;
+    text-align:left;
+}
+
+#nostri_weekend_content {
+    padding-top:3rem;
+}
+
+
+#nostri_weekend_content, #nostri_weekenda_image, #nostri_weekendb_image {opacity:0;}
+
