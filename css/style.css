@@ -1100,6 +1100,10 @@ iframe {
     color: white;
 }
 
+#slogan h1 {
+    text-align: center;
+}
+
 #slogan h4 {
     color:white;
 }
