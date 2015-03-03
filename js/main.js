@@ -120,7 +120,13 @@
             setTimeout(function(){$('#gallery_intro').addClass('animated fadeInDown')},0);
             setTimeout(function(){$('#gallery_carousel').addClass('animated fadeInUp')},700)
         }, { offset: '50%' });
- 
+
+        $('#price').waypoint(function() {
+            setTimeout(function(){$('#priceTitle').addClass('animated fadeInDown')},0);
+            setTimeout(function(){$('#priceTable').addClass('animated fadeInUp')},700)
+            setTimeout(function(){$('#priceConditions').addClass('animated fadeInUp')},1100)
+        }, { offset: '50%' });
+
         $('#dev_blog').waypoint(function() {
             setTimeout(function(){$('#dev_blog_intro').addClass('animated fadeInDown')},0);
             setTimeout(function(){$('#dev_blog_content').addClass('animated fadeInDown')},700)

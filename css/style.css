@@ -1146,6 +1146,9 @@ iframe {
     text-align: left;
 }
 
+
+#priceConditions, #priceTitle, #priceTable {opacity:0;}
+
 .panel-collapse > div {
     color:#191C38;
 }
@@ -1216,4 +1219,5 @@ iframe {
 
 
 #nostri_weekend_content, #nostri_weekenda_image, #nostri_weekendb_image {opacity:0;}
+
 
