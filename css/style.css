@@ -898,9 +898,10 @@ body {
 /*######################################*/
 
 .post {
-    padding-top:6.5rem;
-    padding-bottom:6.5rem;
+    padding-top:1.5rem;/*6.5rem;*/
+    padding-bottom:1.5rem;/*6.5rem; */
     background:white;
+    color:#191C38;
     position:relative;
     display:block;
     z-index:20;
@@ -927,6 +928,10 @@ body {
     margin-left:0px;
 }
 
+.post .container .infoPrenotazioni {
+    font-size:15px;
+    text-align: center;
+}
 iframe {
     border:0
 }
