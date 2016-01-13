@@ -354,7 +354,7 @@ body {
 }
 
 #slogan {
-    color:#191C38;
+    color:white;
     margin:0px;
     pading:0px;
     opacity:0;
@@ -1110,7 +1110,7 @@ iframe {
 }
 
 #slogan h4 {
-    color:191C38;
+    color:white;
 }
 #about {
     background-color: #191C38 !important;
@@ -1199,7 +1199,7 @@ iframe {
 }
 
 
-#rotte_classiche_content {opacity:0;}
+#rotte_classiche_content, #rotte_classiche_image {opacity:0;}
 
 
 /*######################################*/
