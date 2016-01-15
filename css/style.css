@@ -319,8 +319,7 @@ body {
     position:relative;
     z-index:0;
     overflow:hidden;
-    
-    background: url(../images/bg.jpg) no-repeat center center;
+    /*background: url(../images/bg.jpg) no-repeat center center;*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -343,16 +342,6 @@ body {
     text-align:left;
 }
 
-#logo {
-    margin-top: 5rem;/*8rem;*/
-    margin-bottom: 0.4rem;
-    opacity:1;
-}
-
-#logo_header {
-    margin-bottom:4.3rem
-}
-
 #slogan {
     color:#191C38;
     margin:0px;
@@ -373,16 +362,15 @@ body {
     opacity:0;
 }
 
-
-
+.container {
+    width: 90%
+}
 
 /*######################################*/
-/*ABOUT ################################*/
+/*CHARTER ##############################*/
 /*######################################*/
 
-#about {
-    padding-top:6.5rem;
-    padding-bottom:6.5rem;
+#charter {
     background:white;
     position:relative;
     display:block;
@@ -1101,7 +1089,7 @@ iframe {
 }
 
 #home {
-    background-color: #191C38 !important;
+    /*background-color: #191C38 !important;*/
     color: white;
 }
 
@@ -1110,11 +1098,7 @@ iframe {
 }
 
 #slogan h4 {
-    color:191C38;
-}
-#about {
-    background-color: #191C38 !important;
-    color: white;
+    color:#191C38;
 }
 #features_1 {
     background-color: #191C38 !important;
