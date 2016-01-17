@@ -378,6 +378,11 @@ body {
     text-align:center;
 }
 
+.alignVertical {
+    display: flex;
+    align-items: center;
+}
+
 #about_intro {
     opacity:0;
 }
@@ -683,19 +688,19 @@ body {
 /*######################################*/
 
 #footer {
-    padding-top:5.4rem;
-    padding-bottom:6.5rem;
+    padding-top:1rem;
+    /*padding-bottom:6.5rem;*/
     background:white;
-    position:relative;
+    /*position:relative;*/
     display:block;
     z-index:100;
     text-align:center;
-}
 
-#footer h2, #footer p {
-    color:white;
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    width:100%;
 }
-
 
 /* Newsletter Form */
 
@@ -1151,10 +1156,6 @@ iframe {
     list-style-type: circle;
 }
 
-#footer {
-    background-color: #191C38 !important;
-    color: white;
-}
 .arrows_box_bg, .arrows_box {
     background-color: #191C38!important;
     border-bottom-color: white;
@@ -1209,4 +1210,8 @@ iframe {
 
 #nostri_weekend_content, #nostri_weekenda_image, #nostri_weekendb_image {opacity:0;}
 
+.rowBtn {
+    width:100%;
+    font-size: 2em;
+}
 
