@@ -29,7 +29,18 @@
     * Scroll To Contact
     */
     ScrollToContact: function() {
-    $('#button_more').click(function () { $.scrollTo('#about',1000,{easing:'easeInOutExpo',offset:0,'axis':'y'});});
+        $('#charter_btn').click(function () { $.scrollTo('#charter',1000,{easing:'easeInOutExpo',offset:0,'axis':'y'});});
+        $('#weekend_btn').click(function () { $.scrollTo('#weekend',1000,{easing:'easeInOutExpo',offset:0,'axis':'y'});});
+        $('#proposte_viaggio_btn').click(function () { $.scrollTo('#proposte_viaggio',1000,{easing:'easeInOutExpo',offset:0,'axis':'y'});});
+        $('#chi_siamo_btn').click(function () { $.scrollTo('#chi_siamo',1000,{easing:'easeInOutExpo',offset:0,'axis':'y'});});
+        $('#scuola_vela_btn').click(function () { $.scrollTo('#scuola_vela',1000,{easing:'easeInOutExpo',offset:0,'axis':'y'});});
+
+        $('#charter_btn_xs').click(function () { $.scrollTo('#charter',1000,{easing:'easeInOutExpo',offset:0,'axis':'y'});});
+        $('#weekend_btn_xs').click(function () { $.scrollTo('#weekend',1000,{easing:'easeInOutExpo',offset:0,'axis':'y'});});
+        $('#proposte_viaggio_btn_xs').click(function () { $.scrollTo('#proposte_viaggio',1000,{easing:'easeInOutExpo',offset:0,'axis':'y'});});
+        $('#chi_siamo_btn_xs').click(function () { $.scrollTo('#chi_siamo',1000,{easing:'easeInOutExpo',offset:0,'axis':'y'});});
+        $('#scuola_vela_btn_xs').click(function () { $.scrollTo('#scuola_vela',1000,{easing:'easeInOutExpo',offset:0,'axis':'y'});});
+        /*$('#button_more').click(function () { $.scrollTo('#about',1000,{easing:'easeInOutExpo',offset:0,'axis':'y'});});
     $('#about_arrow_back').click(function () { $.scrollTo('0px',1000,{easing:'easeInOutExpo',offset:0,'axis':'y'});});
     $('#about_arrow_next').click(function () { $.scrollTo('#nostri_weekend',1000,{easing:'easeInOutExpo',offset:0,'axis':'y'});});
  //   $('#rotte_classiche_arrow_back').click(function () { $.scrollTo('#about',1000,{easing:'easeInOutExpo',offset:0,'axis':'y'});});
@@ -45,9 +56,9 @@
     $('#gallery_arrow_back').click(function () { $.scrollTo('#features_2',1000,{easing:'easeInOutExpo',offset:0,'axis':'y'});});
     $('#gallery_arrow_next').click(function () { $.scrollTo('#price',1000,{easing:'easeInOutExpo',offset:0,'axis':'y'});});
     $('#price_arrow_back').click(function () { $.scrollTo('#gallery',1000,{easing:'easeInOutExpo',offset:0,'axis':'y'});});
-    $('#price_arrow_next').click(function () { $.scrollTo('#footer',1000,{easing:'easeInOutExpo',offset:0,'axis':'y'});});
+    $('#price_arrow_next').click(function () { $.scrollTo('#footer',1000,{easing:'easeInOutExpo',offset:0,'axis':'y'});});*/
     },
- 
+
  
  
     /**
