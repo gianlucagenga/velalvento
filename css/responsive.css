@@ -116,3 +116,16 @@
     }
 
 }
+
+@media (max-width: 480px) {
+    html {
+        font-size: 62.5%;
+    }
+
+    p {
+        font-size: 1.5rem;
+    }
+    .rowBtn {
+        font-size: 1em;
+    }
+}
