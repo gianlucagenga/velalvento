@@ -702,6 +702,10 @@ body {
     width:100%;
 }
 
+#footer p {
+    font-size: 1em;
+}
+
 /* Newsletter Form */
 
 #newsletter_form {
